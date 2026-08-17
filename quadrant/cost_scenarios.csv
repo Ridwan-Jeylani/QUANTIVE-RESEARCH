@@ -1,0 +1,7 @@
+scenario,mar,sharpe,max_dd_pct,return_per_month_pct,worst_day_pct
+"user model (maker entry, 8.2 + funding)",8.41,3.57,-8.45,4.82,-1.98
+  + SL slip only when stopped,8.47,3.58,-8.43,4.84,-1.98
+taker both sides (11.0 + funding),8.17,3.53,-8.57,4.77,-2.0
+user model + 2x funding premium,8.23,3.53,-8.42,4.72,-1.98
+user model + 1h fill lag,3.2,2.46,-13.66,3.3,-2.24
+taker both + 2x funding + 1h lag,2.96,2.37,-13.89,3.14,-2.26
